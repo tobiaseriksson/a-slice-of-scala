@@ -9,6 +9,7 @@ object ImmutableLists {
     val numbers = Seq( 2, 5 ,7 ,9, 13, 21 )
     val tmp  = numbers.map( v => v*2 ).filter( v => v%3==0 )
     println("Double Up and divisible by 3 "+tmp.mkString(","))
+    // Double Up and divisible by 3 18,42
 
     // Can we really add to a Vector, it is immutable,
     // well kind of, this will create a NEW vector

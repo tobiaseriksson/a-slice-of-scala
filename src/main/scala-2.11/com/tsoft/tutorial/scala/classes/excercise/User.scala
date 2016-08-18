@@ -23,7 +23,7 @@ object Utils {
 
   def randomAge = rand.nextInt(100)
 
-  def randomGender = {
+  def randomGender():String = {
     val genders = Seq( "Male", "Female" )
     genders( rand.nextInt(2) )
   }
